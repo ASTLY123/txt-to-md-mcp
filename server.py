@@ -43,8 +43,8 @@ async def write_txt_to_markdown(
     Args:
         content: txt 内容
         filename: 文件名（不含路径，自动添加.md扩展名）
-        title: 可选的文档标题
-        overwrite: 是否覆盖已存在的文件
+        title: 可选的文档标题，最好以日期+主题的形式命名
+        overwrite: 是否覆盖已存在的文件，除非说明否则绝不要覆盖
         subfolder: 可选的子文件夹（相对于基础路径）
         
     Returns:
